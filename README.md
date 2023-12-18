@@ -1,7 +1,9 @@
-<h1>TOTO je najlepsi package aky existuje na status info
+# Hardest module you can find on github
+### !! I did not use any best practises !!
 
-<h3> A vsetko 100% funguje
+Debuging status messages for project that don't use best practises.
 
+### Use of this module (Be careful very hard!):
 
 ```go
 //Prints info status to output
@@ -14,4 +16,12 @@ func main(){
 Output: [?] - Hello World
 ```
 
-Je to neskutočne náročný modul, ktorý vytvoriť mi trvalo 3000 ... sekúnd
+It's the same for all functions
+
+```
+  .Info(msg) //[?] - msg
+  .Debug(msg) //[DEBUG] - msg
+  .Failure(msg)  //[-] - msg
+  .Error(msg)  //[!] - msg
+  .Success(msg)  //[+] - msg
+```
